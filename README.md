@@ -38,8 +38,8 @@ Apply the Keycloak Custom Resource (CR). This triggers the Operator to configure
    oc apply -f keycloak.yaml
    ```
 
-4. Access the Keycloak route `rhbk.apps.myclustername.mydomain.com` and use the 'rhdh-keycloak-initial-admin' secret for the username and password to login in to the RHBK console
+4. Access the Keycloak route `rhbk.apps.myclustername.mydomain.com` and use the 'example-keycloak-initial-admin' secret for the username and password to login in to the RHBK console
    ~~~
-   oc get secret rhdh-keycloak-initial-admin -o jsonpath='{.data.username}' | base64 --decode && echo # username
-   oc get secret rhdh-keycloak-initial-admin -o jsonpath='{.data.password}' | base64 --decode && echo # password
+   oc get secret  example-keycloak-initial-admin -o jsonpath='{.data.username}' | base64 --decode && echo # username
+   oc get secret  example-keycloak-initial-admin -o jsonpath='{.data.password}' | base64 --decode && echo # password
    ~~~
