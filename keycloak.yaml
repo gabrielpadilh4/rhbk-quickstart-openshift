@@ -1,7 +1,7 @@
 apiVersion: k8s.keycloak.org/v2alpha1
 kind: Keycloak
 metadata:
-  name: example-keycloak
+  name: keycloak-instance
 spec:
   instances: 1
   db:
@@ -14,8 +14,8 @@ spec:
       name: keycloak-db-secret
       key: password
   http:
-    tlsSecret: keycloak-tls-secret
+    httpEnabled: true
   hostname:
-    hostname: rhbk.apps.myclustername.mydomain.com # change this
+    strict: false
   proxy:
     headers: xforwarded
