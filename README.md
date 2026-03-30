@@ -1,6 +1,6 @@
-# RHBK Operator - Basic Quickstart Deployment for OpenShift
+# RHBK Operator - Basic Quickstart Deployment for OpenShift(Edge Route)
 
-This guide covers the basic deployment of Red Hat build of Keycloak Operator in Red Hat Openshift.
+This guide covers the basic deployment of Red Hat build of Keycloak Operator in Red Hat Openshift using the "Edge" TLS termination.
 
 ## 🛠️ Prerequisites
 - An OpenShift cluster with the Keycloak Operator installed.
