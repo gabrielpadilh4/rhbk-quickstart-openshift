@@ -42,11 +42,6 @@ spec:
               value: /data/pgdata
             - name: POSTGRESQL_DATABASE
               value: keycloak
-          resources:
-            requests:
-              memory: 256m
-            limits:
-              memory: 256m
       volumes:
         - name: cache-volume
           emptyDir: {}
