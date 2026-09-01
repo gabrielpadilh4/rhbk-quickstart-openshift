@@ -23,9 +23,9 @@ spec:
     spec:
       resources:
         requests:
-          memory: 256m
+          memory: 256
         limits:
-          memory: 256m
+          memory: 256
       containers:
         - name: postgresql-db
           image: image-registry.openshift-image-registry.svc:5000/openshift/postgresql:15-el9
