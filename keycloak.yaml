@@ -13,6 +13,11 @@ spec:
     passwordSecret:
       name: keycloak-db-secret
       key: password
+  resources:
+    requests:
+      memory: 256
+    limits:
+      memory: 256
   http:
     httpEnabled: true
   hostname:
