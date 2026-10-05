@@ -15,9 +15,9 @@ spec:
       key: password
   resources:
     requests:
-      memory: '512Mi'
+      memory: '700Mi'
     limits:
-      memory: '512Mi'
+      memory: '700Mi'
   http:
     httpEnabled: true
   hostname:
