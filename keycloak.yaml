@@ -17,7 +17,7 @@ spec:
     requests:
       memory: '700Mi'
     limits:
-      memory: '700Mi'
+      memory: '1500Mi'
   http:
     httpEnabled: true
   hostname:
