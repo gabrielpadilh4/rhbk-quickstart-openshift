@@ -19,9 +19,9 @@ metadata:
   name: rhbk-operator
   namespace: rhbk
 spec:
-  channel: stable-v26.4
+  channel: stable-v26.6
   installPlanApproval: Manual
   name: rhbk-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace
-  startingCSV: rhbk-operator.v26.4.10-opr.1
+  startingCSV: rhbk-operator.v26.6.7-opr.1
